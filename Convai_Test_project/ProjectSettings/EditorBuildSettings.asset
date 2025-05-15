@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Convai/Demo/Scenes/Full Features/Convai Demo - All Features.unity
+    guid: e6a997f2afae91c4eb4c75636dc059e6
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 07aa2530f66d7a749824b9d956ac39a5,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 67d92756d2aa9394881d20799d49f499,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2724903ec40b1e045a723be3117080dc,
+      type: 2}
